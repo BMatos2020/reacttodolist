@@ -1,15 +1,20 @@
-import React from "react";
+// import React from "react";
+// import PropTypes from "prop-types";
 
-export function Card() {
-	return (
-		<div className="card d-flex mx-auto" style={{ width: "18rem" }}>
-			<div className="card-body">
-				<ul className="list-group list-group-flush">
-					<li className="list-group-item">Cras justo odio</li>
-					<li className="list-group-item">Dapibus ac facilisis in</li>
-					<li className="list-group-item">Vestibulum at eros</li>
-				</ul>
-			</div>
-		</div>
-	);
-}
+// export function Card(props) {
+// 	return (
+// 		<div className="card d-flex mx-auto" style={{ width: "32rem" }}>
+// 			<div className="card-body">
+// 				<ul className="list-group list-group-flush">
+// 					<li className="list-group-item">{props.cardTodo}</li>
+// 					<li className="list-group-item" />
+// 					<li className="list-group-item" />
+// 				</ul>
+// 			</div>
+// 		</div>
+// 	);
+// }
+
+// Card.propTypes = {
+// 	cardTodo: PropTypes.string
+// };
