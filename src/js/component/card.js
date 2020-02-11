@@ -10,12 +10,13 @@ export function Card() {
 				<ul className="list-group list-group-flush">
 					<li className="list-group-item">
 						<input
+							placeholder="No tasks, add a task"
 							value={content}
 							onChange={e => setContent(e.target.value)}
 							onKeyPress={e => {
 								if (e.key === "Enter") {
 									setList(list.concat(content));
-									setContent("Add your tasks");
+									setContent("");
 								}
 							}}
 						/>
@@ -23,8 +24,6 @@ export function Card() {
 							return <div key={index}>{item}</div>;
 						})}
 					</li>
-					<li className="list-group-item" />
-					<li className="list-group-item" />
 				</ul>
 			</div>
 		</div>
