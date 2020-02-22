@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Delete } from "./delete";
 
 export function Card() {
 	const [list, setList] = useState([]);
@@ -26,6 +27,7 @@ export function Card() {
 					</li>
 				</ul>
 			</div>
+			<Delete />
 		</div>
 	);
 }
